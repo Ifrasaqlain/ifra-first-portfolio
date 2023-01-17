@@ -18,8 +18,8 @@ export default function Footer(props) {
             ))}
           </div>
           <div className="col-lg-4 text-lg-end">
-            <Link className="link-dark text-decoration-none me-3" to="privacy">{props.privacy}</Link>
-            <Link className="link-dark text-decoration-none" to="terms">{props.policy}</Link>
+            {/* <Link className="link-dark text-decoration-none me-3" to="privacy">{props.privacy}</Link>
+            <Link className="link-dark text-decoration-none" to="terms">{props.policy}</Link> */}
           </div>
         </div>
       </div>
@@ -27,9 +27,9 @@ export default function Footer(props) {
   )
 }
 
-PropTypes.defaultProps = {
-  privacy: 'Privacy Policy',
-  policy: 'Terms of Use'
-};
+// PropTypes.defaultProps = {
+//   privacy: 'Privacy Policy',
+//   policy: 'Terms of Use'
+// };
 
 
