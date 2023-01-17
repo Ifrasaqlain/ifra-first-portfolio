@@ -126,9 +126,9 @@ export const projects = [
 
   export const socialMedia = [
     {
-      iconName: "fab fa-twitter",
-      ariaLabel: "Twitter",
-      iconURL: "https://www.linkedin.com/in/ifra-saqlain-559106250/",
+      iconName: "fab fa-instagram",
+      ariaLabel: "Instagram",
+      iconURL: "https://www.instagram.com/ifra_saqlain/",
       
     },
     {

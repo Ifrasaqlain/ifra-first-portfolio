@@ -1,8 +1,6 @@
 import React from 'react';
 import {socialMedia} from './Pages/data';
 import {Link} from 'react-router-dom';
-import PropTypes from 'prop-types'
-
 
 export default function Footer(props) {
   return (
@@ -18,18 +16,11 @@ export default function Footer(props) {
             ))}
           </div>
           <div className="col-lg-4 text-lg-end">
-            {/* <Link className="link-dark text-decoration-none me-3" to="privacy">{props.privacy}</Link>
-            <Link className="link-dark text-decoration-none" to="terms">{props.policy}</Link> */}
+            <Link className="link-dark text-decoration-none me-3" to="privacy">Privacy Policy</Link>
+            <Link className="link-dark text-decoration-none" to="terms">Terms Of Use</Link>
           </div>
         </div>
       </div>
     </footer>
   )
 }
-
-// PropTypes.defaultProps = {
-//   privacy: 'Privacy Policy',
-//   policy: 'Terms of Use'
-// };
-
-
